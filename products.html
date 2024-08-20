@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hf bagware</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="showShoppingChart">
+    <header class="head">
+       <video src="./pics/evil-dead-rise-trailer-2_h720p.mov" autoplay muted></video> 
+       <nav>
+        <div class="logo">
+            <ul>
+                <li>
+                    <a href="home.html" class="purse">HOME</a>
+                    <a href="products.html" class="purse">HANDBAG</a>
+                    <a href="purses.html" class="purse">PURSES</a>
+                    <a href="cartssss.html" class="purse">carts</a>
+                    <!-- <a href="backpack.html" class="purse">BACKPACK</a> -->
+                </li>
+            </ul>
+        </div>
+        <div class="searchWrapper">
+            <form action="action" onsubmit="return false">
+                <a href="#" onclick=showSideBar()><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+                <a href="#" onclick=showSideBars()><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+
+        </div>
+    </nav> 
+    <nav class="sidebars">
+        <div>
+            <div class="logos">
+                <ul>
+                    <li>
+                        <a href="#" onclick=hideSideBars()><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+                        <a href="home.html" class="home">HOME</a>
+                        <a href="products.html" class="home">HANDBAG</a>
+                        <a href="purses.html" class="home">PURSES</a>
+                        <a href="#" class="home">BACKPACK</a>
+                        <!-- <a href="" -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="sidebar">
+        <div>
+            <ul class="logoing">
+                <li>
+                    <a href="#" onclick=hideSideBar()><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+                    <h1>
+                        chart
+                    </h1>
+                    <div class="sub-container">
+                        <h1>ITEM</h1>
+                        <h1>PRICE</h1>
+                        <h1>QUANTITY</h1>
+                    </div>
+                    <div class="containers">
+                
+                    </div>
+                        <div class="subing">
+                            <div class="d">
+                                <div class="item">
+                                    <img src="./IMG_2583.jpeg" alt="" height="50px" width="50px">
+                                    <h1 class="itemName">black box</h1>
+                                </div>
+                                <div class="r">
+                                    <h3 class="pr">4000</h3>
+    
+                                </div>
+                                <!-- <input type="number" id="quantity" class="quant" value="1" min="1"> -->
+                                <input type="text" id="numericInput" pattern="[0-9]+" title="Please enter a valid number" class="quant">
+
+                                <button class="remove">delete</button>
+
+                            </div>
+                        </div>
+                        <div class="subing">
+                            <div class="d">
+                                <div class="item">
+                                    <img src="./IMG_2583.jpeg" alt="" height="50px" width="50px">
+                                    <h1>black box</h1>
+                                </div>
+                                <div class="pr">
+                                    <h3>40000</h3>
+    
+                                </div>
+                                <input type="text" id="numericInputs" pattern="[0-9]+" title="Please enter a valid number">
+                                <button class="remove">delete</button>
+
+                            </div>
+                        </div>
+                    <div class="conting"></div>
+                    <div class="totals">
+                        <h1>totals price</h1>
+                        <h4 class="prss"></h4>
+                    </div>
+                    <div class="e">
+                        <h4 class="purchase">purchase</h4>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+    <!-- <div class="cont">
+        <div class="sub-featuresbox">
+            <img src="./pics/IMG-20230602-WA0002.jpg" alt=""
+            class="imgs2">
+            <h6>Lorem, ipsum.</h6>
+        </div>
+        <div class="sub-featuresbox">
+            <img src="./pics/IMG-20230602-WA0002.jpg" alt=""
+            class="imgs2">
+            <h6>Lorem, ipsum.</h6>
+        </div>   
+        <div class="sub-featuresbox">
+            <img src="./pics/IMG-20230602-WA0002.jpg" alt=""
+            class="imgs2">
+            <h6>Lorem, ipsum.</h6>
+        </div>  
+        <div class="sub-featuresbox">
+            <img src="./pics/IMG-20230602-WA0002.jpg" alt=""
+            class="imgs2">
+            <h6>Lorem, ipsum.</h6>
+        </div>  
+    </div> -->
+    <div class="features">
+        <h4>Featured Products</h4>
+        <P>Lorem ipsum dolor sit amet consectetur.</P>
+    </div>
+    <div class="conts">
+        <div class="container" id="containerID">
+            <img src="./pics/IMG-20230602-WA0008.jpg" alt=""
+            class="imgs1">
+            <h1 class="name">skin black sythentic leather</h1>
+            <div class="stars">
+                <h1 class="prs pr">700000</h1>
+                <button class="addToCartBtn rent"  onclick="addToCart('skin black sythentic leather', 700000, './pics/IMG-20230602-WA0008.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container product productImg" id="containerID">
+            <img src="./pics/IMG_2452.jpeg" alt=""
+            class="imgs1">
+            <h1 class="name">skin black sythentic leather</h1>
+            <div class="stars">
+                <h1 class="prs">700000</h1>
+                <button class="addToCartBtn rent" onclick="addToCart('skin black sythentic leather ', 700000, './pics/IMG_2452.jpeg') ">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container product productImg" id="containerID">
+            <img src="./pics/IMG_20190119_145431.jpg" alt=""
+            width="230px"; height="220px" class="imgs1">
+            <h1 class="name">./pics/IMG_20190119_145431.jpg</h1>
+            <div class="stars">
+                <h1 class="prs">700000</h1>
+                <button class="addToCartBtn rent"onclick="addToCart('./pics/IMG_20190119_145431.jpg ', 700000, ./pics/IMG_20190119_145431.jpg  )">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container product productImg" >
+            <img src="./pics/IMG_20191126_175056_0.jpg" alt=""
+            class="imgs1">
+            <h1 class="name">skin black sythentic leather</h1>
+            <div class="stars">
+                <h1 class="prs">700000</h1>
+                <button class="addToCartBtn rent" onclick="addToCart('skin black sythentic leather', 700000, './pics/IMG_20191126_175056_0.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./pics/IMG-20230602-WA0008.jpg" alt=""
+            class="imgs1">
+            <h1 class="name">skin black sythentic leather</h1>
+            <div class="stars">
+                <h1 class="prs pr">700000</h1>
+                <button class="addToCartBtn rent" onclick="addToCart('skin black sythentic leather', 700000, './pics/IMG-20230602-WA0008.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./pics/IMG_2452.jpeg" alt=""
+            class="imgs1">
+            <h1 class="name">skin black sythentic leather</h1>
+            <div class="stars">
+                <h1 class="prs">70$</h1>
+                <button class="addToCartBtn rent" onclick="addToCart('skin black sythentic leather', 700000, './pics/IMG_2452.jpeg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./pics/IMG_20190119_145431.jpg" alt=""
+            width="230px"; height="220px" class="imgs1">
+            <h1 class="name">skin black sythentic leather</h1>
+            <div class="stars">
+                <h1 class="prs">70$</h1>
+                <button class="addToCartBtn rent" onclick="addToCart('skin black sythentic leather', 700000, './pics/IMG_20190119_145431.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./pics/IMG_20191126_175056_0.jpg" alt=""
+            class="imgs1">
+            <h1 class="name">skin black sythentic leather</h1>
+            <div class="stars">
+                <h1 class="prs">700000</h1>
+                <button class="addToCartBtn rent" onclick="addToCart('skin black sythentic leather', 700000, './pics/IMG_20191126_175056_0.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./pics/IMG-20230602-WA0008.jpg" alt=""
+            class="imgs1">
+            <h1 class="name">skin black sythentic leather</h1>
+            <div class="stars">
+                <h1 class="prs pr">700000</h1>
+                <button class="addToCartBtn rent" onclick="addToCart('skin black sythentic leather', 700000, './pics/IMG-20230602-WA0008.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./pics/IMG_20200527_144805_947.jpg" alt=""
+            class="imgs1">
+            <h1 class="name">skin black sythentic leather</h1>
+            <div class="stars">
+                <h1 class="prs">70000</h1>
+                <button class="addToCartBtn rent" onclick="addToCart('skin black sythentic leather', 700000, './pics/IMG_20200527_144805_947.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./pics/IMG_2594.jpeg" alt=""
+            class="imgs1">
+            <h1 class="name">skin black sythentic leather</h1>
+            <div class="stars">
+                <h1 class="prs">70000</h1>
+                <div class="stars">
+                    <h1 class="prs">70000</h1>
+                    <button class="addToCartBtn rent" onclick="addToCart('skin black sythentic leather', 700000, './pics/IMG_2594.jpeg')">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./pics/IMG_2600.jpeg" alt=""
+            class="imgs1">
+            <h1 class="name">skin black sythentic leather</h1>
+            <div class="stars">
+                <h1 class="prs">70$</h1>
+                <button class="addToCartBtn rent" onclick="addToCart('skin black sythentic leather', 700000, '/pics/IMG_2600.jpeg')">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <section id="banner">
+        <h2>get your fancy bag here</h2>
+        <p>up to <span>30% off</span> all Products</p>
+        <button class="normal">explore more</button>
+    </section>
+    <div class="features">
+        <h4>New Arrival</h4>
+        <P>Lorem ipsum dolor sit amet consectetur.</P>
+    </div>
+    <div class="conts">
+        <div class="container">
+            <img src="./pics/IMG-20230602-WA0008.jpg" alt=""
+            class="imgs1">
+            <h1 class="name">skin black sythentic leather</h1>
+            <div class="stars">
+                <h1 class="prs pr">700000</h1>
+                <button class="addToCartBtn rent" onclick="addToCart('skin black sythentic leather', 700000, './pics/IMG-20230602-WA0008.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./pics/IMG_2452.jpeg" alt=""
+            class="imgs1">
+            <h1 class="name">skin black sythentic leather</h1>
+            <div class="stars">
+                <h1 class="prs">700000</h1>
+                <button class="addToCartBtn rent" onclick="addToCart('skin black sythentic leather', 700000, './pics/IMG_2452.jpeg')">Add to Cart</button>
+            </div>
+        </div>
+        
+        <div class="container">
+            <img src="./pics/IMG_20190119_145431.jpg" alt=""
+            width="230px"; height="220px" class="imgs1">
+            <h1 class="name">skin black sythentic leather</h1>
+            <div class="stars">
+                <h1 class="prs">70000</h1>
+                <button class="addToCartBtn rent" onclick="addToCart('skin black sythentic leather', 700000, './pics/IMG_20190119_145431.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./pics/IMG_20191126_175056_0.jpg" alt=""
+            class="imgs1">
+            <h1 class="name">skin black sythentic leather</h1>
+            <div class="stars">
+                <h1 class="prs">70$</h1>
+                <button class="addToCartBtn rent" onclick="addToCart('skin black sythentic leather', 700000, './pics/IMG_20191126_175056_0.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./pics/IMG-20230602-WA0008.jpg" alt=""
+            class="imgs1">
+            <h1 class="name">skin black sythentic leather</h1>
+            <div class="stars">
+                <h1 class="prs pr">70000</h1>
+                <button class="addToCartBtn rent" onclick="addToCart('skin black sythentic leather', 700000, './pics/IMG-20230602-WA0008.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./pics/IMG_2452.jpeg" alt=""
+            class="imgs1">
+            <h1 class="name">skin black sythentic leather</h1>
+            <div class="stars">
+                <h1 class="prs">70000</h1>
+                <button class="addToCartBtn rent" onclick="addToCart('skin black sythentic leather', 700000, './pics/IMG_2452.jpeg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./pics/IMG_20190119_145431.jpg" alt=""
+            width="230px"; height="220px" class="imgs1">
+            <h1 class="name">skin black sythentic leather</h1>
+            <div class="stars">
+                <h1 class="prs">70000</h1>
+                <button class="addToCartBtn rent" onclick="addToCart('skin black sythentic leather', 700000, './pics/IMG_20190119_145431.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./pics/IMG_20191126_175056_0.jpg" alt=""
+            class="imgs1">
+            <h1 class="name">skin black sythentic leather</h1>
+            <div class="stars">
+                <h1 class="prs">70000</h1>
+                <button class="addToCartBtn rent" onclick="addToCart('skin black sythentic leather', 700000, './pics/IMG_20191126_175056_0.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./pics/IMG_20191126_174535_3_1574856014552.jpg" alt=""
+            class="imgs1">
+            <h1 class="name">skin black sythentic leather</h1>
+            <div class="stars">
+                <h1 class="prs">70000</h1>
+                <button class="addToCartBtn rent" onclick="addToCart('skin black sythentic leather', 700000, './pics/IMG_20191126_174535_3_1574856014552.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./pics/IMG_20200527_144805_947.jpg" alt=""
+            class="imgs1">
+            <h1 class="name">skin black sythentic leather</h1>
+            <div class="stars">
+                <h1 class="prs">70000</h1>
+                <button class="addToCartBtn rent" onclick="addToCart('skin black sythentic leather', 700000, './pics/IMG_20200527_144805_947.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./pics/IMG_2594.jpeg" alt=""
+            class="imgs1">
+            <h1 class="name">skin black sythentic leather</h1>
+            <div class="stars">
+                <h1 class="prs">70000</h1>
+                <div class="stars">
+                    <h1 class="prs">70000</h1>
+                    <button class="addToCartBtn rent" onclick="addToCart('skin black sythentic leather', 700000, './pics/IMG_2594.jpeg')">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="./pics/IMG_2600.jpeg" alt=""
+            class="imgs1">
+            <h1 class="name">skin black sythentic leather</h1>
+            <div class="stars">
+                <h1 class="prs">70$</h1>
+                <button class="addToCartBtn rent" onclick="addToCart('skin black sythentic leather', 700000, '/pics/IMG_2600.jpeg')">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4 class="box">Crazy deal</h4>
+            <p class="box">buy 1 own get one free purses</p>
+            <span class="box">the best classic bag is avaliable at HF BAGWARE</span>
+            <button class="not">check it out</button>
+        </div>
+        <div class="banner-box banner-bo">
+            <h4 class="box">december holiday</h4>
+            <p class="box">upcoming collection</p>
+            <span class="box">new collection of bag is here be among the top 20 to get a reward HF BAGWARE</span>
+            <button class="not">be among</button>
+        </div>
+    </section>
+    <section id="banner3">
+        <div class="banner-box">
+            <h4>season sale</h4>
+            <p>buy 1 own get one free purses</p>
+        </div>
+        <div class="banner-box banner-box2">
+            <h4>men bag</h4>
+            <p>buy 1 own get one free purses</p>
+
+        </div>
+        <div class="banner-box banner-box3">
+            <h4>backpack</h4>
+            <p>buy 1 own get one free purses</p>
+        </div>
+    </section>     
+    <section id="me">
+        <div class="news">
+            <h4>sing up to hf bagware</h4>
+            <p>input your email adresss <span>to get customizes bag</span></p>
+        </div>
+        <div class="enter">
+            <input type="text" placeholder="your eamil adresss" id="emails">
+            <button class="mal">sing up</button>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="circle">
+            
+        </div>
+        <div class="box-containers">
+            <div class="box-container">
+                <div class="headers">
+                    <h3>hfBagware</h3>
+                </div>
+                <div class="headers">
+                    <div class="head">
+                        <h1>About us</h1>
+                        <h1>contact us</h1>
+                        <h1>About us</h1>
+                    </div>
+                 </div>
+                <div class="headers">
+                    <h3>hfBagware</h3>
+                </div>
+            </div>
+            <div class="subbox-container">
+                <div class="feedback">
+                    <div class="input-field" id="field">
+                        <input type="text" class="user" placeholder="userName"  id="user" onblur="validateInput()">
+                        <div class="error-message" id="error-message"></div>
+                    </div> 
+                    <div class="input-field">
+                        <input type="email" class="emails" placeholder="Email"  id="emailing" onblur="validateEmail()">
+                        <div id="error-messages" class="error-message"></div>     
+                    </div>
+                    <div class="input-field">
+                        <input type="text" class="feed" placeholder="feeadBack"  id="feedBack">
+                    </div>
+                    <h6 class="c"> </h6>
+                </div>
+
+                <div class="feedback">
+                    <h6>CONTACT</h6>
+                    <h6>________________US</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, nobis ipsam totam itaque obcaecati voluptatem neque soluta est dicta corrupti vero nemo debitis alias sequi quia assumenda, sit, facere inventore.</p>
+                </div>
+            </div>
+            <div class="box-container">
+                <div class="headers">
+                    <h3>call us</31>
+                    <h1>+234 08032219904</h1>
+                </div>
+                <div class="headers">
+                    <h1>visit our store</h1>
+                    <h1>33 oworotimi street, kudeyibu estate.</h1>
+                 </div>
+                <div class="headers">
+                    <h1>send us a e-mail</h1>
+                    <h1>www.hfbagware.gmail.com</h1>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        async function addToCart(product, price, imgSrc) {
+            try {
+                // Retrieve existing cart from localStorage or initialize as an empty array
+                const cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+                // Create new cart item
+                const newItem = { product, price, imgSrc };
+
+                // Add new item to cart
+                cart.push(newItem);
+
+                // Save updated cart back to localStorage
+                await localStorage.setItem('cart', JSON.stringify(cart));
+
+                // Redirect to the cart page
+                window.location.href = 'cartssss.html';
+            } catch (error) {
+                console.error('Error adding to cart:', error);
+                // Optionally, display an error message to the user
+            }
+        }
+
+        function showSideBar(){
+            const sidebars = document.querySelector(".sidebar") 
+            sidebars.style.display = "flex"
+            // sidebars.style.flex-direction :"colum"
+        }
+        function showSideBars(){
+            const sidebars = document.querySelector(".sidebars") 
+            sidebars.style.display = "flex"
+        }
+        function hideSideBar(){
+            const sidebars = document.querySelector(".sidebar") 
+            sidebars.style.display = "none"
+        }
+        function hideSideBars(){
+            const sidebars = document.querySelector(".sidebars") 
+            sidebars.style.display = "none"
+        }
+        function addToChart() {
+        // Create a new div element
+        var newContainer = document.createElement('div');
+        newContainer.className = 'container';
+
+        // Set the inner HTML for the new div
+        }
+        
+        function validateInput() {
+            // Get the user input value
+            var userInput = document.getElementById('user').value;
+
+            // Get the error message element
+            var errorMessageElement = document.getElementById('error-message');
+
+            // Check if the input is at least 7 characters long
+            if (userInput.length < 7) {
+            // Display an error message
+            errorMessageElement.innerText = 'Error: User name must be at least 7 characters long';
+            
+            // Optionally, you can focus back on the input field
+            document.getElementById('user').focus();
+            } else {
+            // Clear any existing error messages
+            errorMessageElement.innerText = '';
+            }
+        }
+        function validateEmail() {
+            // Get the email input value
+            var emailInput = document.getElementById('emailing').value;
+
+            // Get the error message element
+            var errorMessageElement = document.getElementById('error-messages');
+
+            // Regular expression for email format validation
+            var emailFormat = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+            // Check if the input is in email format
+            if (!emailFormat.test(emailInput)) {
+            // Display an error message
+            errorMessageElement.innerText = 'Error: Please enter a valid email address';
+            
+            // Optionally, you can focus back on the email input field
+            document.getElementById('emailing').focus();
+            } else {
+            // Clear any existing error messages
+            errorMessageElement.innerText = '';
+            }
+        }
+        function validatePasswords() {
+            // Get the password and confirm password input values
+            var passwordInput = document.getElementById('password').value;
+            var confirmInput = document.getElementById('confirm').value;
+
+            // Get the error message element
+            var errorMessageElement = document.getElementById('error-messagess');
+
+            // Check if the passwords match
+            if (passwordInput !== confirmInput) {
+            // Display an error message
+            errorMessageElement.innerText = 'Error: Passwords do not match';
+            
+            // Optionally, you can focus back on the password or confirm password input field
+            // For example, focusing on the password input field:
+            document.getElementById('password').focus();
+            } else {
+            // Clear any existing error messages
+            errorMessageElement.innerText = '';
+            }
+        }
+            
+    </script>
+</body>
+</html>

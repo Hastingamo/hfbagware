@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-box">
+        <form id="sing" class="thems">
+            <div class="input-group">
+                <h1 id="topic">sing up</h1>
+                <div class="input-field" id="field">
+                    <input type="text" class="me" placeholder="userName" autofocus id="user" onblur="validateInput()">
+                    <div class="error-message" id="error-message">
+                        
+                    </div>
+                </div> 
+            </div>
+            <div class="input-field">
+                <input type="email" class="emails" placeholder="Email" autofocus id="emailing" onblur="validateEmail()">
+                <div id="error-messages" class="error-message"></div>     
+            </div>
+                <div class="input-field">
+                    <input type="int" placeholder="Password" id="passwording">
+                </div>
+                <button type="submit"  class="them">Continue</button>
+                <P class="passwords">forgot Password<a href="#">click here!</a></P>
+                <P class="passwords"><a id="LinkCreateAccount" href="login.html">don't have an account? create account</a></P>
+            </div>
+
+            <!-- <div class="btn-field"> -->
+                <!-- <a class="sings" href="#">sing up</a> -->
+                <!-- <button type="button" id="singup" class="second">Sing up</button> -->
+                <!-- <a class="sing" href="login.html">sing in</a> -->
+            <!-- </div> -->
+        </form>
+
+    </div>
+  </div> 
+    <script src="wait.js"></script>
+</body>
+
+</html>

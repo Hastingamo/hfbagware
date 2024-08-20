@@ -1,0 +1,56 @@
+/* body{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+} */
+/* .container{
+    margin-left: 16rem;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    
+} */
+.totals{
+    margin-bottom: 4rem;
+}
+.quant{
+    display: none;
+}
+.conting{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/* .prss{
+    position: absolute;
+    top: 75rem;
+} */
+/* .sub-container{
+    display: flex;
+    gap: 5rem;
+    font-size: .8rem;
+    margin-left: 16rem;
+}
+
+.d{
+    display: flex;
+    gap: .3rem;
+}
+.remove{
+    padding: .4rem;
+    border: 1px solid black;
+    color: beige;
+}
+.sub{
+    display: flex;
+    gap: 3rem;
+}
+.item{
+    display: flex;
+    gap: .3rem;
+    border-bottom: 1px solid black;
+}
+.quant{
+    padding: .2rem;
+} */

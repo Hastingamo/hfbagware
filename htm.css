@@ -1,0 +1,471 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    background-color: darkgrey;
+
+}
+nav{
+    width: 100%;
+    height: 12%;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: brown;
+}
+.logo{
+    display: flex;
+    gap: 4px;
+    margin-left: 10px;
+    align-items: center;
+}
+nav .logo ul li a{
+    color: red;
+    list-style: none;
+    /* gap: 2rem; */
+    text-decoration: none;
+    transition: 2s;
+    margin-left: 2rem;
+}
+nav .logo ul li a:hover{
+    color: #fff;
+}
+.seaches{
+    margin-right: 12px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+}
+input{
+    border-radius: 4px;
+    border: 1px solid #fff;
+    padding: 4px;
+    background-color: black;
+    font-size: 19px;
+}
+input::placeholder{
+    color: #fff;
+}
+.me{
+    border: 2px solid black;
+    border-radius: 6rem;
+}
+.contianer{
+    display: flex;
+
+}
+.banner1, .banner2, .banner3, .banner4{
+    height: 80vh;
+    width: 30%;
+    position: absolute;
+    left: 7%;
+    top: 18%;
+    /* opacity: 0.9; */
+}
+ .contianer img{
+    width: 110%;
+    position: absolute;
+    left: 0;
+    height: 80%;
+    transform: translate(-50% -50%);
+}
+.text-box{
+    width: 300px;
+    position: absolute;
+    top: 40%;
+    left: 30%;  
+}
+.text-box h1{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+.banner1{
+    animation: Img_2593 12s linear infinite;
+}
+.banner2{
+    animation: Img_2585 12s linear infinite;
+}
+.banner3{
+    animation: Img_2583 12s linear infinite;
+}
+.banner4{
+    animation: Img_2452 12s linear infinite;
+}
+@keyframes Img_2593{
+    0%{
+        visibility: visible;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+@keyframes Img_2585{
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: visible;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+@keyframes Img_2583{
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+@keyframes Img_2452{
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+.them{
+    margin-left: 36rem;
+    font-size: 20px;
+    margin-top: 4rem;
+}
+.them h2{
+    font-size: 25px;
+}
+.them p{
+    width: 70%;
+}
+.te{
+    display: flex;
+    gap: 0.5rem;
+}
+.we{
+    padding: 8px 14px;
+    background-color: darkgreen;
+    color: #fff;
+}
+.sub{
+    display: flex;
+    gap: 3rem;  
+    margin-top: 0.5rem;
+}
+.sub img{
+    width: 300px;
+    height: 250px;
+}
+.scrool{
+    overflow-x: visible;
+    border: 1px solid black;
+}
+.subss{
+    width: 130px;
+    height: 20%;
+    margin-top: 2.2rem;
+    margin-left: 6.7rem;
+}
+.subs{
+    width: 130px;
+    /* height: 20%; */
+    margin-top: 2.2rem;
+    margin-left: 15.4rem;
+}
+.suss{
+    width: 130px;
+    height: 20%;
+    margin-top: 2.2rem;
+    margin-left: 24.5rem;
+}
+.location{
+    margin-top: 2rem;
+    padding: 1rem 25rem;
+    margin-left: 4rem;
+    width: 89%;
+
+}
+h3{
+    margin-top: 13rem;
+    margin-left: 4rem;
+    font-size: 30px;
+
+}
+select{
+    background-color: rgba(0, 0, 0, 0.585);
+    color: antiquewhite;
+    font-size: 2rem;
+    transition: 3s;
+}
+select:hover{
+    color: cadetblue;
+}
+.checkout{
+    margin-top: 3rem;
+    padding: 1.6rem 5rem;
+    margin-left: 4rem;
+    color: antiquewhite;
+    background-color: brown;
+    transition: 3s;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem;
+    font-size: 30px;
+
+}
+.checkout:hover{
+    color: cadetblue;
+}
+.choose{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.others{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1px;
+}
+@media screen and (max-width: 1290px)
+{
+    .sub{
+        margin-top: 5.3rem;
+    }
+
+    .them{
+        margin-left: 60rem;
+    }
+    nav{
+        width: 125%;
+        height: 12%;
+    }
+    .sub{
+        margin-top: 0.04rem;
+    }
+    .banner1, .banner2, .banner3, .banner4{
+        height: 95vh;
+        width: 60%;
+    }
+    .contianer img{
+        height: 90%;
+        width: 100%;
+
+    }
+    h3{
+        margin-top: 12rem;
+    }
+    .them p{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1026px) and (max-height: 650px)
+{
+    .them{
+        margin-left: 45rem;
+    }
+    nav{
+        width: 135%;
+        height: 12%;
+    }
+    .sub{
+        margin-top: 0.04rem;
+    }
+    .banner1, .banner2, .banner3, .banner4{
+        height: 95vh;
+        width: 60%;
+    }
+    .contianer img{
+        height: 120%;
+        width: 140%;
+
+    }
+    h3{
+        margin-top: 3rem;
+    }
+    .them p{
+        width: 100%;
+    }
+    .checkout{
+        width: 70%;
+
+    }
+
+}
+@media screen and (max-width: 1026px) and (max-height: 13360px)
+{
+    .banner1, .banner2, .banner3, .banner4{
+        height: 62vh;
+        width: 40%;
+    }
+    .contianer img{
+        height: 65%;
+        width: 90%;
+    }
+    .them{
+        margin-left: 34rem;
+    }
+    nav{
+        width: 100%;
+        height: 12%;
+    }
+
+}
+@media screen and (max-width: 930px) 
+{
+    .banner1, .banner2, .banner3, .banner4{
+        height: 62vh;
+        width: 40%;
+    }
+    .contianer img{
+        height: 65%;
+        width: 100%;
+    }
+    .them{
+        margin-left: 34rem;
+    }
+    nav{
+        width: 98%;
+        height: 12%;
+    }
+
+}
+@media screen and (max-width: 830px) 
+{
+    .banner1, .banner2, .banner3, .banner4{
+        height: 62vh;
+        width: 40%;
+    }
+    .contianer img{
+        height: 65%;
+        width: 100%;
+    }
+    .them{
+        margin-left: 30rem;
+    }
+    nav{
+        width: 98%;
+        height: 12%;
+    }
+    .location{
+        padding: 1rem 20rem;
+        margin-left: 4rem;
+        width: 80%;
+    }
+    .checkout{
+        padding: 1.6rem 5rem;
+        width: 60%;
+
+    
+    }
+
+}
+@media screen and (max-width: 770px) 
+{
+    .banner1, .banner2, .banner3, .banner4{
+        height: 62vh;
+        width: 40%;
+    }
+    .contianer img{
+        height: 65%;
+        width: 103%;
+    }
+    .them{
+        margin-left: 28rem;
+    }
+    nav{
+        width: 110%;
+        height: 12%;
+    }
+    .location{
+        padding: 1rem 20rem;
+        margin-left: 4rem;
+        width: 80%;
+    }
+    .checkout{
+        padding: 1.6rem 5rem;
+        width: 60%;
+
+    }
+    h3{
+        margin-top: 2rem;
+    }
+    .them p{
+        width: 90%;
+    }
+
+}
+@media screen and (max-width: 600px) 
+{
+    .banner1, .banner2, .banner3, .banner4{
+        height: 62vh;
+        width: 40%;
+    }
+    .contianer img{
+        height: 65%;
+        width: 140%;
+    }
+    .them{
+        margin-left: 28rem;
+    }
+    nav{
+        width: 140%;
+        height: 12%;
+    }
+    .location{
+        padding: 1rem 20rem;
+        margin-left: 4rem;
+        width: 80%;
+    }
+    .checkout{
+        padding: 1.6rem 5rem;
+        width: 60%;
+
+    }
+    h3{
+        margin-top: 2rem;
+    }
+    .them p{
+        width: 220%;
+    }
+
+}

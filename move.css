@@ -1,0 +1,33 @@
+.cart-img{
+    width: 200px;
+    height: 200px;
+}
+span{
+    font-size: 20px;
+
+}
+li{
+    display: flex;
+    flex-direction: row;
+    
+}
+.container{
+    margin-left: 10rem;
+    display: flex;
+    flex-direction: columnremoveFromCart;
+    gap: 10rem;
+
+}
+.cart-details{
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+button{
+    padding: 1rem;
+    margin-bottom: .5rem;
+}
+.removeFromCart{
+    margin-left: 10rem;
+}

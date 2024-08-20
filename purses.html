@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="backpact.css">
+    <link rel="stylesheet" href="purses.css"
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <ul>
+                <li>
+                    <a href="home.html">HOME</a>
+                    <a href="products.html">product</a>
+                    <a href="hangbag.html">hangbag</a>
+                    <a href="purses.html">PURSES</a>
+                    <a href="backpack.html">BACKPACK</a>
+                </li>
+            </ul>
+        </div>
+        <div class="searchWrapper">
+            <form action="action" onsubmit="return false">
+                <input type="text" name="searchBar" onclick=showSideBar() placeholder="enter what you are lookin for" id="searchBars"></form>
+                <a href="#" onclick=showSideBar()><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+                <a href="#" onclick=showSideBars()><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+        </div>
+    </nav> 
+    <nav class="sidebars">
+        <div>
+            <div class="logos">
+                <ul>
+                    <li>
+                        <a href="#" onclick=hideSideBars()><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+                        <a href="home.html" class="home">HOME</a>
+                        <a href="products.html" class="home">HANDBAG</a>
+                        <a href="purses.html" class="home">PURSES</a>
+                        <a href="#" class="home">BACKPACK</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="them">
+        <div class="man white leater bag">
+            <img src="./pics/IMG_20201219_130737_680.jpg" alt="" height="220px" width="230px">
+            <div class="sub">
+                <h1>white leater bag</h1>
+                <p>price 20000</p>
+                <button class="addToCartBtn rent" onclick="addToCart('white leater bag', 20000, './pics/IMG_20201219_130737_680.jpg')">Add to Cart</button>
+
+            </div>
+        </div>
+        <div class="man blue fancy bag">
+            <img src="./pics/IMG-20201023-WA0016.jpg" alt="" height="220px" width="230px">
+            <div class="sub">
+                <h1>blue fancy bag</h1>
+                <p>price 20000</p>
+                <button class="addToCartBtn rent" onclick="addToCart('blue fancy bag', 20000, '/pics/IMG-20201023-WA0016.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="man pure gold bag">
+            <img src="./pics/IMG_20190119_145745.jpg" alt="" height="220px" width="230px">
+            <div class="sub">
+                <h1> pure gold bag</h1>
+                <p>price 20000</p>
+                <button class="addToCartBtn rent" onclick="addToCart('pure gold bag', 20000, './pics/IMG_20190119_145745.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="man green fancy bag">
+            <img src="./pics/17639567.jpg" alt="" height="220px" width="230px">
+            <div class="sub">
+                <h1>green fancy bag</h1>
+                <p>price 20000</p>
+                <button class="addToCartBtn rent" onclick="addToCart('green fancy bag', 20000, '../pics/17639567.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="man purple gorgous bag">
+            <img src="./pics/IMG_20190119_145431.jpg" alt=""             width="230px"; height="220px">
+            <div class="sub">
+                <h1>purple gorgous bag</h1>
+                <p>price 20000</p>
+                <button class="addToCartBtn rent" onclick="addToCart('purple gorgous bag', 20000, './pics/IMG_20190119_145431.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="man favorite white">
+            <img src="./pics/IMG-20230602-WA0005.jpg" alt=""      width="230px"; height="220px">
+            <div class="sub">
+                <h1>favorite white </h1>
+                <p>price 20000</p>
+                <button class="addToCartBtn rent" onclick="addToCart('favorite white', 20000, './pics/IMG-20230602-WA0005.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="man black is beauty">
+            <img src="./pics/IMG-20230602-WA0007.jpg" alt=""             width="230px"; height="220px">
+            <div class="sub">
+                <h1>black is beauty</h1>
+                <p>price 20000</p>
+                <button class="addToCartBtn rent" onclick="addToCart('black is beauty', 20000, './pics/IMG-20230602-WA0007.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="man blue is mine">
+            <img src="./pics/IMG_20200801_110207_952_1596354331237.jpg" alt="" width="230px"; height="220px">
+            <div class="sub">
+                <h1>blue is mine</h1>
+                <p>price 20000</p>
+                <button class="addToCartBtn rent" onclick="addToCart('blue is mine', 20000, '../pics/IMG_20200801_110207_952_1596354331237.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="man purple gorgous bag">
+            <img src="./pics/IMG_20190119_145431.jpg" alt=""             width="230px"; height="220px">
+            <div class="sub">
+                <h1>purple gorgous bag</h1>
+                <p>price 20000</p>
+                <button class="addToCartBtn rent" onclick="addToCart('purple gorgous bag', 20000, './pics/IMG_20190119_145431.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="man white">
+            <img src="./pics/IMG-20230602-WA0005.jpg" alt=""      width="230px"; height="220px">
+            <div class="sub">
+                <h1>favorite white </h1>
+                <p>price 20000</p>
+                <button class="addToCartBtn rent" onclick="addToCart('favorite white', 20000, './pics/IMG-20230602-WA0005.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="man black is beauty">
+            <img src="./pics/IMG-20230602-WA0007.jpg" alt=""      width="230px"; height="220px">
+            <div class="sub">
+                <h1>black is beauty</h1>
+                <p>price 20000</p>
+                <button class="addToCartBtn rent" onclick="addToCart('black is beauty', 20000, './pics/IMG-20230602-WA0007.jpg')">Add to Cart</button>
+            </div>
+        </div>
+        <div class="man blue is mine">
+            <img src="./pics/IMG_20200801_110207_952_1596354331237.jpg" alt="" width="230px"; height="220px">
+            <div class="sub">
+                <h1>blue is mine</h1>
+                <p>price 20000</p>
+                <button class="addToCartBtn rent" onclick="addToCart('blue is mine', 20000, './pics/IMG_20200801_110207_952_1596354331237.jpg')">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    </div>
+        <ul id="CharacterList"></ul>
+    </div>
+<div class="circle">
+    
+</div>
+<div class="box-containers">
+    <div class="box-container">
+        <div class="headers">
+            <h1>hfBagware</h1>
+        </div>
+        <div class="headers">
+            <div class="head">
+                <h1>About us</h1>
+                <h1>contact us</h1>
+                <h1>About us</h1>
+            </div>
+         </div>
+        <div class="headers">
+            <h1>hfBagware</h1>
+        </div>
+    </div>
+    <div class="subbox-container">
+        <div class="feedback">
+            <div class="input-field" id="field">
+                <input type="text" class="user" placeholder="userName" id="user" onblur="validateInput()">
+                <div class="error-message" id="error-message"></div>
+            </div> 
+            <div class="input-field">
+                <input type="email" class="emails" placeholder="Email" id="emailing" onblur="validateEmail()">
+                <div id="error-messages" class="error-message"></div>     
+            </div>
+            <div class="input-field">
+                <input type="text" class="feed" placeholder="feeadBack" id="feedBack">
+            </div>
+            <h6 class="c"> </h6>
+        </div>
+
+        <div class="feedback">
+            <h6>CONTACT</h6>
+            <h6>________________US</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, nobis ipsam totam itaque obcaecati voluptatem neque soluta est dicta corrupti vero nemo debitis alias sequi quia assumenda, sit, facere inventore.</p>
+        </div>
+    </div>
+    <div class="box-container">
+        <div class="headers">
+            <h1>call us</h1>
+            <h1>+234 08032219904</h1>
+        </div>
+        <div class="headers">
+            <h1>visit our store</h1>
+            <h1>33 oworotimi street, kudeyibu estate.</h1>
+         </div>
+        <div class="headers">
+            <h1>send us a e-mail</h1>
+            <h1>www.hfbagware.gmail.com</h1>
+        </div>
+    </div>
+</div>
+    <script src="the.js"></script>
+    <script>
+        async function addToCart(product, price, imgSrc) {
+            try {
+                // Retrieve existing cart from localStorage or initialize as an empty array
+                const cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+                // Create new cart item
+                const newItem = { product, price, imgSrc };
+
+                // Add new item to cart
+                cart.push(newItem);
+
+                // Save updated cart back to localStorage
+                await localStorage.setItem('cart', JSON.stringify(cart));
+
+                // Redirect to the cart page
+                window.location.href = 'cartssss.html';
+            } catch (error) {
+                console.error('Error adding to cart:', error);
+                // Optionally, display an error message to the user
+            }
+        }
+        function showSideBar(){
+            const sidebars = document.querySelector("box-containers") 
+            sidebars.style.display = "none"
+            // sidebars.style.flex-direction :"colum"
+        }
+        function showSideBars(){
+            const sidebars = document.querySelector(".sidebars") 
+            sidebars.style.display = "flex"
+        }
+
+        function hideSideBars(){
+            const sidebars = document.querySelector(".sidebars") 
+            sidebars.style.display = "none"
+        }
+        function addToChart() {
+        // Create a new div element
+        var newContainer = document.createElement('div');
+        newContainer.className = 'container';
+        }
+    </script>
+</body>
+</html>
