@@ -109,11 +109,11 @@ input::placeholder{
 }
 .bag{
     border: 1px solid black;
-    padding: 4px 9px;
+    padding: 14px 9px;
     right: 53%;
     top: 8rem;
     left: 1rem;
-    color: wheat;
+    color: red;
     position: absolute;
     transition: ease-out 6s;
     text-decoration: none;
@@ -121,4 +121,34 @@ input::placeholder{
 .bag:hover{
     color: dimgrey;
     background-color: rgba(221, 145, 145, 0.637);
+}
+@media screen and (max-width:1300px) 
+{
+    header{
+        width: 80%;
+    }    
+}
+@media screen and (max-width:790px)
+{
+    .seaches{
+        display: none;
+    }
+    .bag{
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width:470px)
+{
+    li{
+        display: flex;
+        flex-direction: column;
+        margin-right: 10rem;
+    }
+    p{
+        color: antiquewhite;
+    }
+    .bag{
+        margin-top: 6rem;
+    }
+    
 }

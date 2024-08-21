@@ -652,7 +652,7 @@ h6 {
     top: 1rem;
   }
 }
-@media screen and (max-width: 1028px) and (max-height: 620px) {
+@media screen and (max-width: 1048px) and (max-height: 650px) {
   nav {
     display: flex;
     flex-direction: row;
@@ -774,7 +774,7 @@ h6 {
 
   .box-containers {
     margin-left: 4rem;
-    top: 328rem;
+    top: 102rem;
     width: 88%;
   }
   .circle {
@@ -1245,6 +1245,9 @@ h6 {
     font-size: 1.3rem;
   }
   .footer{
+    display: none;
+  }
+  .box-containers{
     display: none;
   }
 }

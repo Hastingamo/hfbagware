@@ -348,6 +348,12 @@ h6{
     body{
         overflow-x: hidden;
     }
+    .searchWrapper{
+        margin-right: 9rem;
+    }
+    .thes{
+        display: none;
+    }
     .them{
         margin-top: 4rem;
     }
@@ -361,8 +367,8 @@ h6{
         width: 113%;
     }
     .box-containers{
-        margin-left: 6rem;
-        top: 127rem;
+        margin-left: 5rem;
+        top: 138rem;
         width: 82%;
     }
     .circle{
@@ -383,6 +389,7 @@ h6{
         text-decoration: none;
       }
     
+    
 }
 
 @media screen and (max-width: 1030px)
@@ -390,21 +397,26 @@ h6{
     body{
         overflow-x: hidden;
     }
+    .thes{
+        display: none;
+    }
     .imgs1{
-        width: 170px;
-        height: 180px;
-
+        width: 220px;
+        height: 220px;
+    }
+    .them{
+        margin-left: 6rem;
     }
     .box-containers{
         margin-left: 4rem;
-        top: 119rem;
+        top: 200rem;
         width: 88%;
     }
     .circle{
         width: 650px;
         height: 800px;
         border-radius: 50%;
-        margin-left: 14rem;
+        margin-left: 11rem;
     }
     .feedbacks{
         margin-top: 4rem;
@@ -431,15 +443,15 @@ h6{
         margin-left: 1rem;
     }
     .them{
-        margin-left: 1rem;
+        margin-left: 6rem;
     }
     .box-container{
         grid-template-columns: 12.8rem 24rem 14rem;
     }
     .box-containers{
         margin-left: 3rem;
-        top: 118rem;
-        width: 88%;
+        top: 248rem;
+        width: 93%;
     }
     .circle{
         width: 650px;
@@ -456,13 +468,17 @@ h6{
     nav{
         width: 99%;
     }
+    .them{
+        margin-left: 3rem;
+    }
+
     .circle{
         margin-left: 7rem;
         width: 550px;
     }
     .box-containers{
         margin-left: 3rem;
-        top: 116rem;
+        top: 186rem;
         width: 87%;
     }
     .box-container{
@@ -483,6 +499,9 @@ h6{
         height: 200px;
     }
     nav .logo ul li a{
+        margin-left: 1rem;
+    }
+    .them{
         margin-left: 1rem;
     }
     .man{
@@ -555,6 +574,10 @@ h6{
     }
 }
 @media screen and (max-width: 590px){
+    .searchWrapper{
+        margin-right: 17rem;
+        gap: 2rem;
+    }
     .box-container{
         grid-template-columns: 11rem 15rem 11rem;
     }
@@ -563,6 +586,26 @@ h6{
     }
     .box-containers{
         top: 160rem;
+    }
+    .thes{
+        display: contents;
+    }
+    .sidebars{
+        background-color: gray;
+        height: 60%;
+        width: 100%;
+        font-size: 1rem;
+        /* align-items: center; */
+        /* text-align: center; */
+    }
+    .sidebars a{
+        margin-left: 15rem;
+    }
+    .circle{
+        display: none;
+    }
+    .box-containers{
+        display: none;
     }
 }
 @media screen and (max-width: 380px)
